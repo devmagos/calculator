@@ -1,0 +1,66 @@
+.container {
+  margin: 150px auto;
+  background: #000000;
+  opacity: 0.8;
+  width: 229px;
+  height: 320px;
+  border-radius: 5px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 1.5px;
+  color: #ffffff;
+  background: rgb(122, 180, 212);
+  border: thin;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(122, 136, 212);
+}
+
+.inputview {
+  margin: 1.5px;
+  width: 225px;
+  font-size: 25px;
+  text-align: right;
+  border: thin;
+  border-radius: 5px;
+  background: rgb(236, 231, 231);
+}
+
+[rowspan] button {
+  height: 106px;
+}
+
+[colspan] button {
+  width: 106px;
+}
+
+#clear {
+  background: red;
+}
+
+.same {
+  background: rgb(169, 169, 169);
+  opacity: 0.6;
+}
+
+.same:hover {
+  background: rgb(169, 169, 169);
+  opacity: 0.9;
+}
+
+.btnequals {
+  background: rgb(128, 128, 128);
+  opacity: 0.6;
+}
+
+.btnequals:hover {
+  background: rgb(128, 128, 128);
+  opacity: 0.9;
+}
